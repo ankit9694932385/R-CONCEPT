@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDIT TWEET</title>
+</head>
+<body>
+    <h1>Edit your post</h1><hr>
+    <p>Tweet ID => <%=post.id %></p>
+    <p>Tweet username =><%=post.username %> </p>
+
+    <form method="post" action="http://localhost:3000/tweets/<%= post.id %>?_method=PATCH">
+        <textarea cols="40" rows="4" name="tweet" id="tweet"><%=post.tweet %></textarea><br>
+        <button>submit</button>
+    </form>
+    <hr>
+</body>
+</html>
+
+ 

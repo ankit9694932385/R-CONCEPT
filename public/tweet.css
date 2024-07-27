@@ -1,0 +1,13 @@
+#tweetinfo{
+    margin-bottom: 70px;
+    background-color: rgb(180, 239, 219);
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(197, 0, 0);
+}
+
+#deletebtn{
+    color: rgb(197, 0, 0);;
+}
